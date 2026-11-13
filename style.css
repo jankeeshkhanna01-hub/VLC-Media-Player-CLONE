@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    font-family:"Roboto Condensed", sans-serif ;
+}
+header{
+    background-color: aqua;
+    height: 5rem;
+}
+.tittle-bar{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.tittle-img{
+    height: 80%;
+    margin-left: 1rem;
+}
+.tittle-text{
+    font-size: 1rem;
+}
+.menu-bar{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    height: 50%;
+    margin-left: 1rem;
+  
+}
+main{
+    background-color: black;
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    position: relative;
+}
+.vid-input{
+    display: none;
+}
+.menu-play{
+    position: absolute;
+    background-color: antiquewhite;
+      display: none;
+      margin-top: 0px;  
+}
+footer{
+    height: 3rem;
+    background-color: gray;
+}
+.menu:hover{
+    background-color: aliceblue;
+    padding: .2px;
+}
+.menu:hover  .menu-play{
+    display: block;
+}
+li:hover{
+    background-color: darkcyan;
+}
+.video{
+    height: 100%;
+}
+.toast{
+    color: white;
+    font-size: 5rem;
+    position: fixed;
+    top: 160px;
+    right: 100px; 
+    display: none;  
+}
