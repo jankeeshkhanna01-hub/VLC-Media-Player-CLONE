@@ -7,6 +7,8 @@ const handler = () =>{
     vidinput.click();
 
 }
+
+// this is the way to get the files as the input in index.html recieves the file and then we target it , convert it into url and then append it to the video in main tag !!!
 const handlervid= (obj) =>{
   
   const selfile = obj.target.files[0];
